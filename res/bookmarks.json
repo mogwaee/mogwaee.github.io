@@ -4,47 +4,20 @@
       {
         "name": "Contacts",
         "bookmarks": [
-          { "name": "Gmail", "url": "https://mail.google.com" },
+          { "name": "Gmail", "url": "https://mail.google.com/" },
           { "name": "Outlook", "url": "https://outlook.live.com/mail/inbox" },
           { "name": "Discord", "url": "https://discordapp.com/channels/@me" },
-          { "name": "WhatsApp", "url": "https://web.whatsapp.com" },
-          { "name": "Messages", "url": "https://messages.google.com" }
+          { "name": "WhatsApp", "url": "https://web.whatsapp.com/" },
+          { "name": "Messages", "url": "https://messages.google.com/web/conversations?redirected=true" }
         ]
       },
-      {
-        "name": "Productivity",
-        "bookmarks": [
-          { "name": "Calendar", "url": "https://calendar.google.com/calendar" },
-          { "name": "OneNote", "url": "https://www.onenote.com" },
-          { "name": "Keep", "url": "https://keep.google.com" },
-          { "name": "Notion", "url": "https://www.notion.so" }
-        ]
-      },
-      { "name": "Travel", "bookmarks": [{ "name": "Maps", "url": "https://www.google.fr/maps" }] }
-    ]
-  },
-  {
-    "groups": [
       {
         "name": "Social",
         "bookmarks": [
-          { "name": "reddit", "url": "https://www.reddit.com" },
-          { "name": "Twitter", "url": "https://twitter.com" },
-          { "name": "Instagram", "url": "https://www.instagram.com" },
-          { "name": "Facebook", "url": "https://www.facebook.com" }
-        ]
-      },
-      {
-        "name": "Media",
-        "bookmarks": [
-          { "name": "YouTube", "url": "https://www.youtube.com" },
-          { "name": "Twitch", "url": "https://www.twitch.tv/directory" },
-          { "name": "Netflix", "url": "https://www.netflix.com" },
-          { "name": "Prime Video", "url": "https://www.primevideo.com" },
-          { "name": "Plex", "url": "https://app.plex.tv/desktop" },
-          { "name": "Spotify", "url": "https://open.spotify.com" },
-          { "name": "YouTube Music", "url": "https://music.youtube.com" },
-          { "name": "IMDb", "url": "https://www.imdb.com" }
+          { "name": "reddit", "url": "https://www.reddit.com/" },
+          { "name": "Twitter", "url": "https://twitter.com/home" },
+          { "name": "Instagram", "url": "https://www.instagram.com/" },
+          { "name": "Facebook", "url": "https://www.facebook.com/home.php" }
         ]
       }
     ]
@@ -52,25 +25,59 @@
   {
     "groups": [
       {
+        "name": "Productivity",
+        "bookmarks": [
+          { "name": "Calendar", "url": "https://calendar.google.com/calendar/" },
+          { "name": "OneNote", "url": "https://www.onenote.com/" },
+          { "name": "Keep", "url": "https://keep.google.com/" },
+          { "name": "Notion", "url": "https://www.notion.so" }
+        ]
+      },
+      {
+        "name": "Coding",
+        "bookmarks": [
+          { "name": "Github", "url": "https://github.com/mogwaee" },
+          { "name": "CodePen", "url": "https://codepen.io/" }
+        ]
+      },
+      { "name": "Travel", "bookmarks": [{ "name": "Maps", "url": "https://www.google.fr/maps/" }] },
+      {
         "name": "Home",
         "bookmarks": [
-          { "name": "Freebox OS", "url": "https://mogwaee.freeboxos.fr:12631" },
-          { "name": "Sonarr", "url": "http://mogwaee.freeboxos.fr:8989" },
+          { "name": "Freebox OS", "url": "https://mogwaee.freeboxos.fr:12631/login.php" },
+          { "name": "Sonarr", "url": "http://mogwaee.freeboxos.fr:8989/" },
           { "name": "rardl", "url": "https://rarbgprx.org/top10" }
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "name": "Media",
+        "bookmarks": [
+          { "name": "YouTube", "url": "https://www.youtube.com/" },
+          { "name": "Twitch", "url": "https://www.twitch.tv/directory" },
+          { "name": "Netflix", "url": "https://www.netflix.com/" },
+          { "name": "Prime Video", "url": "https://www.primevideo.com/" },
+          { "name": "Plex", "url": "https://app.plex.tv/desktop" },
+          { "name": "Spotify", "url": "https://open.spotify.com/" },
+          { "name": "YouTube Music", "url": "https://music.youtube.com/" },
+          { "name": "IMDb", "url": "https://www.imdb.com/" }
         ]
       },
       {
         "name": "Gaming",
         "bookmarks": [
-          { "name": "HowLongToBeat", "url": "https://howlongtobeat.com" },
-          { "name": "OpenCritic", "url": "https://opencritic.com" },
-          { "name": "Steam", "url": "https://store.steampowered.com" }
+          { "name": "HowLongToBeat", "url": "https://howlongtobeat.com/" },
+          { "name": "OpenCritic", "url": "https://opencritic.com/" },
+          { "name": "Steam", "url": "https://store.steampowered.com/" }
         ]
       },
       {
         "name": "Shop",
         "bookmarks": [
-          { "name": "Amazon", "url": "https://www.amazon.fr" },
+          { "name": "Amazon", "url": "https://www.amazon.fr/" },
           { "name": "Play Store", "url": "https://play.google.com/store" }
         ]
       }

@@ -14,9 +14,20 @@ body {
   font-family: 'OperatorMono-Light';
 }
 
+header {
+  display: flex;
+  align-items: center;
+  font-family: 'OperatorMono-LightItalic';
+  color: #c792ea;
+  margin: 0.6rem 0.8rem 0;
+  font-size: 10px;
+}
+
 header > img {
-  width: 48px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
+  margin-right: 10px;
 }
 
 .flex-container {

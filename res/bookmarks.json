@@ -84,8 +84,8 @@
       {
         "name": "Gaming",
         "bookmarks": [
-          { "name": "HowLongToBeat", "url": "https://howlongtobeat.com/" },
           { "name": "OpenCritic", "url": "https://opencritic.com/" },
+          { "name": "HowLongToBeat", "url": "https://howlongtobeat.com/" },
           { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/" },
           { "name": "Steam", "url": "https://store.steampowered.com/" },
           { "name": "Epic", "url": "https://www.epicgames.com/store/" },

@@ -1,7 +1,5 @@
 'use strict';
 
-import { outputJson } from './modules/outputJson.js';
-
 const init = () => {
   console.log('init');
   loadBookmarks();
@@ -12,7 +10,6 @@ const loadBookmarks = () => {
     .then((res) => res.json())
     .then((data) => {
       //console.log(data);
-      //outputJson(data, 'myJson', 'displayJSON');
       displayBookmarks(data);
     })
     .catch((err) => console.error(err));

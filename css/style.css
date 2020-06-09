@@ -30,11 +30,11 @@ header > img {
   margin-right: 10px;
 }
 
-.flex-container {
+.bookmarks-container {
   /* padding-top: 5rem; */
 }
 
-.flex-container > .row {
+.bookmarks-container > .row {
   max-width: 80em;
   width: 100%;
   margin: 5vw auto;
@@ -43,7 +43,7 @@ header > img {
   justify-content: space-between;
 }
 
-.flex-container > .row > .cols {
+.bookmarks-container > .row > .cols {
   box-sizing: border-box;
   /* margin: 0.2em; */
   /* padding: 0.2em; */
@@ -53,11 +53,11 @@ header > img {
   flex: 1 1 20em;
 }
 
-.flex-container > .row > .cols > .group {
+.bookmarks-container > .row > .cols > .group {
   /* outline: white solid 1px 0 0; */
 }
 
-.flex-container > .row > .cols > .group > .group-name {
+.bookmarks-container > .row > .cols > .group > .group-name {
   font-family: 'OperatorMono-LightItalic';
   color: #c792ea;
   margin: 0.6rem 0.8rem 0;
@@ -70,13 +70,13 @@ header > img {
   /* letter-spacing: 0.1em; */
 }
 
-.flex-container > .row > .cols > .group > .bookmarks {
+.bookmarks-container > .row > .cols > .group > .bookmarks {
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
 
-.flex-container > .row > .cols > .group > .bookmarks > .bookmark > a {
+.bookmarks-container > .row > .cols > .group > .bookmarks > .bookmark > a {
   text-decoration: none;
   color: #bfc7d5;
   display: block;
@@ -85,24 +85,65 @@ header > img {
   line-height: 1.2em;
 }
 
-.flex-container > .row > .cols > .group > .bookmarks > .bookmark > a:hover {
+.bookmarks-container > .row > .cols > .group > .bookmarks > .bookmark > a:hover {
   background-color: #1b1e2b;
   color: #82aaff;
 }
 
-/* JSON syntax colors  */
-.string {
-  color: #80cbc4;
+/* ------------- WAVE ANIMATION ------------- */
+
+.wave-container .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('/img/wave.svg');
+  background-size: 990px 100px;
+  background-repeat: repeat-x;
 }
-.number {
-  color: darkorange;
+
+.wave-container .wave.wave1 {
+  animation: animate 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
 }
-.boolean {
-  color: #ffcb6b;
+.wave-container .wave.wave2 {
+  animation: animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
 }
-.null {
-  color: #ff5874;
+.wave-container .wave.wave3 {
+  animation: animate 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
 }
-.key {
-  color: #c3e88d;
+.wave-container .wave.wave4 {
+  animation: animate2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 990px;
+  }
+}
+@keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -990px;
+  }
 }

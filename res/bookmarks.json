@@ -36,7 +36,6 @@
         "name": "Productivity",
         "bookmarks": [
           { "name": "Calendar", "url": "https://calendar.google.com/calendar/" },
-          { "name": "OneNote", "url": "https://www.onenote.com/" },
           { "name": "Keep", "url": "https://keep.google.com/" },
           { "name": "Notion", "url": "https://www.notion.so/" }
         ]
@@ -46,7 +45,8 @@
         "bookmarks": [
           { "name": "Github", "url": "https://github.com/mogwaee" },
           { "name": "CodeSandbox", "url": "https://codesandbox.io/s/codesandbox-static-mv8z5" },
-          { "name": "CodePen", "url": "https://codepen.io/" }
+          { "name": "CodePen", "url": "https://codepen.io/" },
+          { "name": "Linodes", "url": "https://cloud.linode.com/linodes" }
         ]
       },
       {

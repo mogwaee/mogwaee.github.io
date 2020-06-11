@@ -5,7 +5,6 @@
         "name": "Contacts",
         "bookmarks": [
           { "name": "Gmail", "url": "https://mail.google.com/" },
-          { "name": "Outlook", "url": "https://outlook.live.com/mail/inbox" },
           { "name": "Discord", "url": "https://discordapp.com/channels/@me" },
           { "name": "WhatsApp", "url": "https://web.whatsapp.com/" },
           { "name": "Messages", "url": "https://messages.google.com/" }
@@ -27,6 +26,14 @@
           { "name": "Maps", "url": "https://www.google.fr/maps/" },
           { "name": "Google Travel", "url": "https://www.google.com/travel/" }
         ]
+      },
+      {
+        "name": "Shop",
+        "bookmarks": [
+          { "name": "Bankin'", "url": "https://app2.bankin.com/" },
+          { "name": "Amazon", "url": "https://www.amazon.fr/" },
+          { "name": "Play Store", "url": "https://play.google.com/store" }
+        ]
       }
     ]
   },
@@ -46,24 +53,18 @@
           { "name": "Github", "url": "https://github.com/mogwaee" },
           { "name": "CodeSandbox", "url": "https://codesandbox.io/s/codesandbox-static-mv8z5" },
           { "name": "CodePen", "url": "https://codepen.io/" },
-          { "name": "Linodes", "url": "https://cloud.linode.com/linodes" }
+          { "name": "Linodes", "url": "https://cloud.linode.com/linodes" },
+          { "name": "Azure", "url": "https://portal.azure.com/#home" }
         ]
       },
       {
         "name": "Home",
         "bookmarks": [
+          { "name": "On.here", "url": "http://on.here/" },
           { "name": "Pulseway", "url": "https://my.pulseway.com/" },
           { "name": "Freebox OS", "url": "https://mogwaee.freeboxos.fr:12631/" },
           { "name": "Sonarr", "url": "http://mogwaee.freeboxos.fr:8989/" },
           { "name": "rardl", "url": "https://rarbgprx.org/top10" }
-        ]
-      },
-      {
-        "name": "Shop",
-        "bookmarks": [
-          { "name": "Bankin'", "url": "https://app2.bankin.com/" },
-          { "name": "Amazon", "url": "https://www.amazon.fr/" },
-          { "name": "Play Store", "url": "https://play.google.com/store" }
         ]
       }
     ]

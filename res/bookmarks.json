@@ -53,7 +53,6 @@
           { "name": "Github", "url": "https://github.com/mogwaee" },
           { "name": "CodeSandbox", "url": "https://codesandbox.io/s/codesandbox-static-mv8z5" },
           { "name": "CodePen", "url": "https://codepen.io/" },
-          { "name": "Linodes", "url": "https://cloud.linode.com/linodes" },
           { "name": "Azure", "url": "https://portal.azure.com/#home" }
         ]
       },

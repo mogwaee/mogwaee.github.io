@@ -61,7 +61,6 @@
         "name": "Home",
         "bookmarks": [
           { "name": "On.here", "url": "http://on.here/" },
-          { "name": "Pulseway", "url": "https://my.pulseway.com/" },
           { "name": "Freebox OS", "url": "https://mogwaee.freeboxos.fr:12631/" },
           { "name": "Sonarr", "url": "http://mogwaee.freeboxos.fr:8989/" },
           { "name": "rardl", "url": "https://rarbgprx.org/top10" }

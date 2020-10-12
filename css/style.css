@@ -86,8 +86,9 @@ header > img {
 }
 
 .bookmarks-container > .row > .cols > .group > .bookmarks > .bookmark > a:hover {
-  background-color: #6272a4;
-  color: #ff79c6;
+  background-color: #50fa7b;
+  color: #44475a;
+  font-weight: bold;
 }
 
 /* ------------- WAVE ANIMATION ------------- */

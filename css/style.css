@@ -34,11 +34,11 @@ header > img {
   margin-right: 10px;
 }
 
-.search {
+.search-box {
   text-align: center;
 }
 
-.search > input {
+.search-box > input {
   padding: 5px 20px;
   width: 345px;
   height: 35px;

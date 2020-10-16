@@ -1,7 +1,7 @@
 'use strict';
 
 const init = () => {
-  document.f1.q.focus();
+  //console.log("init");
   loadBookmarks();
 };
 

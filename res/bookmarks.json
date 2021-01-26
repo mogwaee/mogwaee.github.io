@@ -12,7 +12,10 @@
       },
       {
         "name": "Reading",
-        "bookmarks": [{ "name": "Mediapart", "url": "https://www.mediapart.fr" }]
+        "bookmarks": [
+          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" },
+          { "name": "Mediapart", "url": "https://www.mediapart.fr" }
+        ]
       },
       {
         "name": "Social",
@@ -81,9 +84,11 @@
           { "name": "Twitch", "url": "https://www.twitch.tv/directory" },
           { "name": "Netflix", "url": "https://www.netflix.com/" },
           { "name": "Prime Video", "url": "https://www.primevideo.com/" },
+          { "name": "Disney+", "url": "https://www.disneyplus.com/home" },
+          { "name": "OCS", "url": "https://go.ocs.fr/" },
           { "name": "Plex", "url": "https://app.plex.tv/desktop" },
           { "name": "Spotify", "url": "https://open.spotify.com/" },
-          { "name": "YouTube Music", "url": "https://music.youtube.com/" },
+          { "name": "YT Music", "url": "https://music.youtube.com/" },
           { "name": "IMDb", "url": "https://www.imdb.com/" },
           { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }
         ]

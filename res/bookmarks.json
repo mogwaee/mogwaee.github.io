@@ -13,8 +13,9 @@
       {
         "name": "Reading",
         "bookmarks": [
-          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" },
-          { "name": "Mediapart", "url": "https://www.mediapart.fr" }
+          { "name": "Le Monde", "url": "https://www.lemonde.fr" },
+          { "name": "Mediapart", "url": "https://www.mediapart.fr" },
+          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
         ]
       },
       {
@@ -37,7 +38,6 @@
       {
         "name": "Shop",
         "bookmarks": [
-          { "name": "Bankin'", "url": "https://app2.bankin.com/" },
           { "name": "Amazon", "url": "https://www.amazon.fr/" },
           { "name": "Play Store", "url": "https://play.google.com/store" }
         ]
@@ -62,6 +62,14 @@
           { "name": "CodeSandbox", "url": "https://codesandbox.io/s/codesandbox-static-mv8z5" },
           { "name": "CodePen", "url": "https://codepen.io/" },
           { "name": "Azure", "url": "https://portal.azure.com/#home" }
+        ]
+      },
+      {
+        "name": "Monies",
+        "bookmarks": [
+          { "name": "Bankin'", "url": "https://app2.bankin.com/" },
+          { "name": "Coinbase", "url": "hhttps://www.coinbase.com" },
+          { "name": "NiceHash", "url": "https://www.nicehash.com/my/dashboard" }
         ]
       },
       {

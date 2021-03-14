@@ -68,7 +68,7 @@
         "name": "Monies",
         "bookmarks": [
           { "name": "Bankin'", "url": "https://app2.bankin.com/" },
-          { "name": "Coinbase", "url": "hhttps://www.coinbase.com" },
+          { "name": "Coinbase", "url": "https://www.coinbase.com/dashboard" },
           { "name": "NiceHash", "url": "https://www.nicehash.com/my/dashboard" }
         ]
       },

@@ -104,6 +104,7 @@
       {
         "name": "Gaming",
         "bookmarks": [
+          { "name": "Chess.com", "url": "https://www.chess.com/home" },
           { "name": "OpenCritic", "url": "https://opencritic.com/" },
           { "name": "HowLongToBeat", "url": "https://howlongtobeat.com/" },
           { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/" },

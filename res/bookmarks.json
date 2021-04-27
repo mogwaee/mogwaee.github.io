@@ -111,7 +111,7 @@
           { "name": "Epic", "url": "https://www.epicgames.com/store/" },
           { "name": "GeForce Now", "url": "https://play.geforcenow.com" },
           { "name": "Stadia", "url": "https://stadia.google.com/home" },
-          { "name": "Xbox Cloud", "url": "https://www.xbox.com/en-US/play" },
+          { "name": "xCloud", "url": "https://www.xbox.com/en-US/play" },
           { "name": "Chess.com", "url": "https://www.chess.com/home" }
         ]
       }

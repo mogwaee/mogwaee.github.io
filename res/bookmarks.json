@@ -51,6 +51,7 @@
           { "name": "Calendar", "url": "https://calendar.google.com/calendar/" },
           { "name": "Keep", "url": "https://keep.google.com/" },
           { "name": "Notion", "url": "https://www.notion.so/" },
+          { "name": "Bring!", "url": "https://web.getbring.com/app/lists/1" },
           { "name": "monkeytype", "url": "https://monkeytype.com" }
         ]
       },

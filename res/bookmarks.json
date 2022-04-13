@@ -12,7 +12,7 @@
       {
         "name": "Reading",
         "bookmarks": [
-          { "name": "Le Monde", "url": "https://www.lemonde.fr" },
+          { "name": "Libération", "url": "https://www.liberation.fr/" },
           { "name": "Mediapart", "url": "https://www.mediapart.fr" },
           { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
         ]

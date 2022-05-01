@@ -101,6 +101,7 @@
           { "name": "OCS", "url": "https://go.ocs.fr/" },
           { "name": "myCanal", "url": "https://www.canalplus.com" },
           { "name": "Plex", "url": "https://app.plex.tv/desktop" },
+          { "name": "YouTube Music", "url": "https://music.youtube.com" },
           { "name": "Spotify", "url": "https://open.spotify.com/" },
           { "name": "IMDb", "url": "https://www.imdb.com/" },
           { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }

@@ -10,15 +10,6 @@
         ]
       },
       {
-        "name": "Reading",
-        "bookmarks": [
-          { "name": "Libération", "url": "https://www.liberation.fr/" },
-          { "name": "Le Monde", "url": "https://www.lemonde.fr/" },
-          { "name": "Mediapart", "url": "https://www.mediapart.fr" },
-          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
-        ]
-      },
-      {
         "name": "Social",
         "bookmarks": [
           { "name": "reddit", "url": "https://www.reddit.com/" },
@@ -29,6 +20,13 @@
         ]
       },
       {
+        "name": "Reading",
+        "bookmarks": [
+          { "name": "Libération", "url": "https://www.liberation.fr/" },
+          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
+        ]
+      },
+      {
         "name": "Travel",
         "bookmarks": [
           { "name": "Maps", "url": "https://www.google.fr/maps/" },
@@ -36,10 +34,10 @@
         ]
       },
       {
-        "name": "Shop",
+        "name": "Monies",
         "bookmarks": [
-          { "name": "Amazon", "url": "https://www.amazon.fr/" },
-          { "name": "Play Store", "url": "https://play.google.com/store" }
+          { "name": "Bankin'", "url": "https://app2.bankin.com/" },
+          { "name": "Amazon", "url": "https://www.amazon.fr/" }
         ]
       }
     ]
@@ -50,7 +48,6 @@
         "name": "Productivity",
         "bookmarks": [
           { "name": "Calendar", "url": "https://calendar.google.com/calendar/" },
-          { "name": "Keep", "url": "https://keep.google.com/" },
           { "name": "Notion", "url": "https://www.notion.so/" },
           { "name": "Bring!", "url": "https://web.getbring.com/app/lists/1" },
           { "name": "monkeytype", "url": "https://monkeytype.com" }
@@ -61,16 +58,7 @@
         "bookmarks": [
           { "name": "Github", "url": "https://github.com/mogwaee" },
           { "name": "CodeSandbox", "url": "https://codesandbox.io/s/codesandbox-static-mv8z5" },
-          { "name": "CodePen", "url": "https://codepen.io/" },
-          { "name": "Azure", "url": "https://portal.azure.com/#home" }
-        ]
-      },
-      {
-        "name": "Monies",
-        "bookmarks": [
-          { "name": "Bankin'", "url": "https://app2.bankin.com/" },
-          { "name": "Coinbase", "url": "https://www.coinbase.com/dashboard" },
-          { "name": "NiceHash", "url": "https://www.nicehash.com/my/dashboard" }
+          { "name": "CodePen", "url": "https://codepen.io/" }
         ]
       },
       {
@@ -99,9 +87,7 @@
           { "name": "Apple TV+", "url": "https://tv.apple.com" },
           { "name": "Disney+", "url": "https://www.disneyplus.com/home" },
           { "name": "OCS", "url": "https://go.ocs.fr/" },
-          { "name": "myCanal", "url": "https://www.canalplus.com" },
           { "name": "Plex", "url": "https://app.plex.tv/desktop" },
-          { "name": "YouTube Music", "url": "https://music.youtube.com" },
           { "name": "Spotify", "url": "https://open.spotify.com/" },
           { "name": "IMDb", "url": "https://www.imdb.com/" },
           { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }
@@ -116,7 +102,6 @@
           { "name": "Steam", "url": "https://store.steampowered.com/" },
           { "name": "Epic", "url": "https://www.epicgames.com/store/" },
           { "name": "GeForce Now", "url": "https://play.geforcenow.com" },
-          { "name": "Stadia", "url": "https://stadia.google.com/home" },
           { "name": "xCloud", "url": "https://www.xbox.com/en-US/play" },
           { "name": "Chess.com", "url": "https://www.chess.com/home" }
         ]

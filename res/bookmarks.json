@@ -45,12 +45,13 @@
   {
     "groups": [
       {
-        "name": "Productivity",
+        "name": "Personal Productivity",
         "bookmarks": [
           { "name": "Calendar", "url": "https://calendar.google.com/calendar/" },
           { "name": "Notion", "url": "https://www.notion.so/" },
           { "name": "Bring!", "url": "https://web.getbring.com/app/lists/1" },
-          { "name": "monkeytype", "url": "https://monkeytype.com" }
+          { "name": "monkeytype", "url": "https://monkeytype.com" },
+          { "name": "Health Mate", "url": "https://healthmate.withings.com/" }
         ]
       },
       {

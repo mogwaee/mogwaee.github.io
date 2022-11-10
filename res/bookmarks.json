@@ -89,6 +89,7 @@
           { "name": "OCS", "url": "https://go.ocs.fr/" },
           { "name": "Plex", "url": "https://app.plex.tv/desktop" },
           { "name": "Spotify", "url": "https://open.spotify.com/" },
+          { "name": "Apple Music", "url": "https://music.apple.com/" },
           { "name": "IMDb", "url": "https://www.imdb.com/" },
           { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }
         ]

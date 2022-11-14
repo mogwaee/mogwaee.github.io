@@ -49,6 +49,7 @@
         "bookmarks": [
           { "name": "Calendar", "url": "https://calendar.google.com/calendar/" },
           { "name": "Notion", "url": "https://www.notion.so/" },
+          { "name": "iCloud", "url": "https://beta.icloud.com" },  
           { "name": "Bring!", "url": "https://web.getbring.com/app/lists/1" },
           { "name": "monkeytype", "url": "https://monkeytype.com" },
           { "name": "Health Mate", "url": "https://healthmate.withings.com/" }

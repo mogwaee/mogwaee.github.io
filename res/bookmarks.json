@@ -103,7 +103,6 @@
           { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/" },
           { "name": "Steam", "url": "https://store.steampowered.com/" },
           { "name": "Epic", "url": "https://www.epicgames.com/store/" },
-          { "name": "GeForce Now", "url": "https://play.geforcenow.com" },
           { "name": "xCloud", "url": "https://www.xbox.com/en-US/play" },
           { "name": "Chess.com", "url": "https://www.chess.com/home" }
         ]

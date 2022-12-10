@@ -83,14 +83,12 @@
         "bookmarks": [
           { "name": "YouTube", "url": "https://www.youtube.com/" },
           { "name": "Twitch", "url": "https://www.twitch.tv/directory" },
-          { "name": "Netflix", "url": "https://www.netflix.com/" },
+          { "name": "Plex", "url": "https://app.plex.tv/desktop" },
+          { "name": "myCANAL", "url": "https://www.canalplus.com/" },
           { "name": "Prime Video", "url": "https://www.primevideo.com/" },
           { "name": "Apple TV+", "url": "https://tv.apple.com" },
-          { "name": "Disney+", "url": "https://www.disneyplus.com/home" },
-          { "name": "OCS", "url": "https://go.ocs.fr/" },
-          { "name": "Plex", "url": "https://app.plex.tv/desktop" },
-          { "name": "Spotify", "url": "https://open.spotify.com/" },
           { "name": "Apple Music", "url": "https://music.apple.com/" },
+          { "name": "Spotify", "url": "https://open.spotify.com/" },
           { "name": "IMDb", "url": "https://www.imdb.com/" },
           { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }
         ]

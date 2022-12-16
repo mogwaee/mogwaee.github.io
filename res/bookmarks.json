@@ -47,6 +47,7 @@
       {
         "name": "Personal Productivity",
         "bookmarks": [
+          { "name": "ChatGPT", "url": "https://chat.openai.com/chat" },        
           { "name": "Calendar", "url": "https://calendar.google.com/calendar/" },
           { "name": "Notion", "url": "https://www.notion.so/" },
           { "name": "iCloud", "url": "https://beta.icloud.com" },  

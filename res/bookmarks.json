@@ -22,6 +22,7 @@
       {
         "name": "Reading",
         "bookmarks": [
+          { "name": "Cafeyn", "url": "https://www.cafeyn.co/fr/newsstand" },
           { "name": "Libération", "url": "https://www.liberation.fr/" },
           { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
         ]

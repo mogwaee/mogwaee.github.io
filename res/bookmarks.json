@@ -50,7 +50,6 @@
         "bookmarks": [
           { "name": "ChatGPT", "url": "https://chat.openai.com/chat" },        
           { "name": "Calendar", "url": "https://calendar.google.com/calendar/" },
-          { "name": "Evernote", "url": "https://www.evernote.com/client/web" },
           { "name": "Notion", "url": "https://www.notion.so/" },
           { "name": "iCloud", "url": "https://beta.icloud.com" },  
           { "name": "Bring!", "url": "https://web.getbring.com/app/lists/1" },

@@ -30,7 +30,7 @@
       {
         "name": "Travel",
         "bookmarks": [
-          { "name": "Maps", "url": "https://www.google.fr/maps/" },
+          { "name": "Maps", "url": "https://maps.google.com" },
           { "name": "Google Travel", "url": "https://www.google.com/travel/" }
         ]
       },

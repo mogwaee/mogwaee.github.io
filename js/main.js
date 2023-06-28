@@ -40,6 +40,7 @@ const displayBookmarks = (bookmarks) => {
         newOl.appendChild(newLi);
         let newA = document.createElement('a');
         newA.setAttribute('href', bookmark.url);
+        newA.setAttribute('target', '_blank');
         newA.innerHTML = bookmark.name;
         newLi.appendChild(newA);
       }

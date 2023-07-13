@@ -42,7 +42,7 @@
       {
         "name": "Organize",
         "bookmarks": [       
-          { "name": "Calendar", "url": "https://calendar.google.com/calendar/" },
+          { "name": "Cron", "url": "https://calendar.cron.com/" },
           { "name": "ENT", "url": "https://ent.parisclassenumerique.fr/" },
           { "name": "Bring!", "url": "https://web.getbring.com/app/lists/1" }, 
           { "name": "Health Mate", "url": "https://healthmate.withings.com/" }

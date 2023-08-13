@@ -52,7 +52,8 @@
         "name": "Productivity",
         "bookmarks": [
           { "name": "Notion", "url": "https://www.notion.so/" },
-          { "name": "ChatGPT", "url": "https://chat.openai.com/chat" }, 
+          { "name": "ChatGPT", "url": "https://chat.openai.com/chat" },
+          { "name": "Bard", "url": "https://bard.google.com/" }, 
           { "name": "Github", "url": "https://github.com/mogwaee" },
           { "name": "CodePen", "url": "https://codepen.io/" },
           { "name": "iCloud", "url": "https://beta.icloud.com" },

@@ -5,6 +5,7 @@
         "name": "Contacts",
         "bookmarks": [
           { "name": "Gmail", "url": "https://mail.google.com/" },
+          { "name": "Outlook", "url": "https://outlook.live.com/mail/1/" },
           { "name": "Discord", "url": "https://discordapp.com/channels/@me" },
           { "name": "WhatsApp", "url": "https://web.whatsapp.com/" }
         ]

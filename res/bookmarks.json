@@ -1,106 +1,104 @@
 [
-  {
-    "groups": [
-      {
-        "name": "Contacts",
-        "bookmarks": [
-          { "name": "Gmail", "url": "https://mail.google.com/" },
-          { "name": "Outlook", "url": "https://outlook.live.com/mail/1/" },
-          { "name": "Discord", "url": "https://discordapp.com/channels/@me" },
-          { "name": "WhatsApp", "url": "https://web.whatsapp.com/" }
+    {
+        "groups": [
+            {
+                "name": "Contacts",
+                "bookmarks": [
+                    { "name": "Gmail", "url": "https://mail.google.com/" },
+                    { "name": "Discord", "url": "https://discordapp.com/channels/@me" },
+                    { "name": "WhatsApp", "url": "https://web.whatsapp.com/" }
+                ]
+            },
+            {
+                "name": "Social",
+                "bookmarks": [
+                    { "name": "reddit", "url": "https://www.reddit.com/" },
+                    { "name": "Twitter", "url": "https://twitter.com/home" },
+                    { "name": "Instagram", "url": "https://www.instagram.com/" },
+                    { "name": "TikTok", "url": "https://www.tiktok.com/" },
+                    { "name": "Facebook", "url": "https://www.facebook.com/" },
+                    { "name": "Photos", "url": "https://photos.google.com/" }
+                ]
+            },
+            {
+                "name": "Reading",
+                "bookmarks": [
+                    { "name": "Cafeyn", "url": "https://www.cafeyn.co/fr/newsstand" },
+                    { "name": "Libération", "url": "https://www.liberation.fr/" },
+                    { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
+                ]
+            },
+            {
+                "name": "Monies",
+                "bookmarks": [
+                    { "name": "Bankin'", "url": "https://app2.bankin.com/" },
+                    { "name": "Amazon", "url": "https://www.amazon.fr/" }
+                ]
+            }
         ]
-      },
-      {
-        "name": "Social",
-        "bookmarks": [
-          { "name": "reddit", "url": "https://www.reddit.com/" },
-          { "name": "Twitter", "url": "https://twitter.com/home" },
-          { "name": "Instagram", "url": "https://www.instagram.com/" },
-          { "name": "TikTok", "url": "https://www.tiktok.com/" },
-          { "name": "Facebook", "url": "https://www.facebook.com/" },
-          { "name": "Photos", "url": "https://photos.google.com/" }
+    },
+    {
+        "groups": [
+            {
+                "name": "Organize",
+                "bookmarks": [
+                    { "name": "Cron", "url": "https://calendar.cron.com/" },
+                    { "name": "ENT", "url": "https://ent.parisclassenumerique.fr/" },
+                    { "name": "Health Mate", "url": "https://healthmate.withings.com/" }
+                ]
+            },
+            {
+                "name": "Productivity",
+                "bookmarks": [
+                    { "name": "Notion", "url": "https://www.notion.so/" },
+                    { "name": "ChatGPT", "url": "https://chat.openai.com/chat" },
+                    { "name": "Bard", "url": "https://bard.google.com/" },
+                    { "name": "Github", "url": "https://github.com/mogwaee" },
+                    { "name": "CodePen", "url": "https://codepen.io/" },
+                    { "name": "iCloud", "url": "https://beta.icloud.com" },
+                    { "name": "monkeytype", "url": "https://monkeytype.com" }
+                ]
+            },
+            {
+                "name": "Home",
+                "bookmarks": [
+                    { "name": "Freebox OS", "url": "https://mogwaee.freeboxos.fr:12631/" },
+                    { "name": "Cockpit", "url": "https://mogwaee.freeboxos.fr:9590/" },
+                    { "name": "Grafana", "url": "http://mogwaee.freeboxos.fr:3500/" },
+                    { "name": "Sonarr", "url": "http://mogwaee.freeboxos.fr:9489/" },
+                    { "name": "Transmission", "url": "http://mogwaee.freeboxos.fr:9591/" },
+                    { "name": "1377x", "url": "https://www.1377x.to/top-100" }
+                ]
+            }
         ]
-      },
-      {
-        "name": "Reading",
-        "bookmarks": [
-          { "name": "Cafeyn", "url": "https://www.cafeyn.co/fr/newsstand" },
-          { "name": "Libération", "url": "https://www.liberation.fr/" },
-          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
+    },
+    {
+        "groups": [
+            {
+                "name": "Media",
+                "bookmarks": [
+                    { "name": "YouTube", "url": "https://www.youtube.com/" },
+                    { "name": "Twitch", "url": "https://www.twitch.tv/directory" },
+                    { "name": "Plex", "url": "https://app.plex.tv/desktop" },
+                    { "name": "myCANAL", "url": "https://www.canalplus.com/" },
+                    { "name": "Prime Video", "url": "https://www.primevideo.com/" },
+                    { "name": "Spotify", "url": "https://open.spotify.com/" },
+                    { "name": "IMDb", "url": "https://www.imdb.com/" },
+                    { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }
+                ]
+            },
+            {
+                "name": "Gaming",
+                "bookmarks": [
+                    { "name": "OpenCritic", "url": "https://opencritic.com/" },
+                    { "name": "HowLongToBeat", "url": "https://howlongtobeat.com/" },
+                    { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/" },
+                    { "name": "Steam", "url": "https://store.steampowered.com/" },
+                    { "name": "Epic", "url": "https://www.epicgames.com/store/" },
+                    { "name": "xCloud", "url": "https://www.xbox.com/en-US/play" },
+                    { "name": "Chess.com", "url": "https://www.chess.com/home" }
+                ]
+            }
         ]
-      },
-      {
-        "name": "Monies",
-        "bookmarks": [
-          { "name": "Bankin'", "url": "https://app2.bankin.com/" },
-          { "name": "Amazon", "url": "https://www.amazon.fr/" }
-        ]
-      }
-    ]
-  },
-  {
-    "groups": [
-      {
-        "name": "Organize",
-        "bookmarks": [       
-          { "name": "Cron", "url": "https://calendar.cron.com/" },
-          { "name": "ENT", "url": "https://ent.parisclassenumerique.fr/" },
-          { "name": "Bring!", "url": "https://web.getbring.com/app/lists/1" }, 
-          { "name": "Health Mate", "url": "https://healthmate.withings.com/" }
-        ]
-      },
-      {
-        "name": "Productivity",
-        "bookmarks": [
-          { "name": "Notion", "url": "https://www.notion.so/" },
-          { "name": "ChatGPT", "url": "https://chat.openai.com/chat" },
-          { "name": "Bard", "url": "https://bard.google.com/" }, 
-          { "name": "Github", "url": "https://github.com/mogwaee" },
-          { "name": "CodePen", "url": "https://codepen.io/" },
-          { "name": "iCloud", "url": "https://beta.icloud.com" },
-          { "name": "monkeytype", "url": "https://monkeytype.com" }
-        ]
-      },
-      {
-        "name": "Home",
-        "bookmarks": [
-          { "name": "Freebox OS", "url": "https://mogwaee.freeboxos.fr:12631/" },
-          { "name": "Cockpit", "url": "https://mogwaee.freeboxos.fr:9590/" },
-          { "name": "Grafana", "url": "http://mogwaee.freeboxos.fr:3500/" },
-          { "name": "Sonarr", "url": "http://mogwaee.freeboxos.fr:9489/" },
-          { "name": "Transmission", "url": "http://mogwaee.freeboxos.fr:9591/" },
-          { "name": "1377x", "url": "https://www.1377x.to/top-100" }
-        ]
-      }
-    ]
-  },
-  {
-    "groups": [
-      {
-        "name": "Media",
-        "bookmarks": [
-          { "name": "YouTube", "url": "https://www.youtube.com/" },
-          { "name": "Twitch", "url": "https://www.twitch.tv/directory" },
-          { "name": "Plex", "url": "https://app.plex.tv/desktop" },
-          { "name": "myCANAL", "url": "https://www.canalplus.com/" },
-          { "name": "Prime Video", "url": "https://www.primevideo.com/" },
-          { "name": "Spotify", "url": "https://open.spotify.com/" },
-          { "name": "IMDb", "url": "https://www.imdb.com/" },
-          { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }
-        ]
-      },
-      {
-        "name": "Gaming",
-        "bookmarks": [
-          { "name": "OpenCritic", "url": "https://opencritic.com/" },
-          { "name": "HowLongToBeat", "url": "https://howlongtobeat.com/" },
-          { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/" },
-          { "name": "Steam", "url": "https://store.steampowered.com/" },
-          { "name": "Epic", "url": "https://www.epicgames.com/store/" },
-          { "name": "xCloud", "url": "https://www.xbox.com/en-US/play" },
-          { "name": "Chess.com", "url": "https://www.chess.com/home" }
-        ]
-      }
-    ]
-  }
+    }
 ]

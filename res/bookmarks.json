@@ -68,7 +68,7 @@
           { "name": "Cockpit", "url": "https://mogwaee.freeboxos.fr:9590/" },
           { "name": "Grafana", "url": "http://mogwaee.freeboxos.fr:3500/" },
           { "name": "Sonarr", "url": "http://mogwaee.freeboxos.fr:9489/" },
-          { "name": "Transmission", "url": "http://mogwaee.freeboxos.fr:9591/" },
+          { "name": "Transmission", "url": "http://e7240:9091/transmission/web/" },
           { "name": "1377x", "url": "https://www.1377x.to/top-100" }
         ]
       }

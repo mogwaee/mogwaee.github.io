@@ -98,6 +98,7 @@
           { "name": "Steam", "url": "https://store.steampowered.com/" },
           { "name": "Epic", "url": "https://www.epicgames.com/store/" },
           { "name": "xCloud", "url": "https://www.xbox.com/en-US/play" },
+          { "name": "GeForce NOW", "url": "https://play.geforcenow.com/" },
           { "name": "Chess.com", "url": "https://www.chess.com/home" }
         ]
       }

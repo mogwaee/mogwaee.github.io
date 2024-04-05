@@ -81,6 +81,7 @@
         "bookmarks": [
           { "name": "YouTube", "url": "https://www.youtube.com/" },
           { "name": "Twitch", "url": "https://www.twitch.tv/directory" },
+          { "name": "OQEE", "url": "https://oqee.tv/home" },
           { "name": "Plex", "url": "https://app.plex.tv/desktop" },
           { "name": "myCANAL", "url": "https://www.canalplus.com/" },
           { "name": "Prime Video", "url": "https://www.primevideo.com/" },

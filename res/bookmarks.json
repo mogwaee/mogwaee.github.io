@@ -32,7 +32,7 @@
       {
         "name": "Monies",
         "bookmarks": [
-          { "name": "Bankin'", "url": "https://app2.bankin.com/" },
+          { "name": "Linxo'", "url": "https://linxo.com/" },
           { "name": "Amazon", "url": "https://www.amazon.fr/" }
         ]
       }
@@ -45,7 +45,6 @@
         "bookmarks": [       
           { "name": "Calendar", "url": "https://calendar.notion.so/" },
           { "name": "Pronote", "url": "https://0750711r.index-education.net/pronote/" },
-          { "name": "Bring!", "url": "https://web.getbring.com/app/lists/1" }, 
           { "name": "Health Mate", "url": "https://healthmate.withings.com/" }
         ]
       },
@@ -58,6 +57,7 @@
           { "name": "Github", "url": "https://github.com/mogwaee" },
           { "name": "CodePen", "url": "https://codepen.io/" },
           { "name": "iCloud", "url": "https://beta.icloud.com" },
+          { "name": "OneDrive", "url": "https://onedrive.live.com" },
           { "name": "monkeytype", "url": "https://monkeytype.com" }
         ]
       },
@@ -84,6 +84,7 @@
           { "name": "OQEE", "url": "https://oqee.tv/home" },
           { "name": "Plex", "url": "https://app.plex.tv/desktop" },
           { "name": "myCANAL", "url": "https://www.canalplus.com/" },
+          { "name": "Netflix", "url": "https://www.netflix.com/fr-en/" },
           { "name": "Prime Video", "url": "https://www.primevideo.com/" },
           { "name": "Spotify", "url": "https://open.spotify.com/" },
           { "name": "IMDb", "url": "https://www.imdb.com/" },
@@ -97,7 +98,6 @@
           { "name": "HowLongToBeat", "url": "https://howlongtobeat.com/" },
           { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/" },
           { "name": "Steam", "url": "https://store.steampowered.com/" },
-          { "name": "Epic", "url": "https://www.epicgames.com/store/" },
           { "name": "xCloud", "url": "https://www.xbox.com/en-US/play" },
           { "name": "GeForce NOW", "url": "https://play.geforcenow.com/" },
           { "name": "Chess.com", "url": "https://www.chess.com/home" }

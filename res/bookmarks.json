@@ -5,7 +5,6 @@
         "name": "Contacts",
         "bookmarks": [
           { "name": "Gmail", "url": "https://mail.google.com/" },
-          { "name": "Outlook", "url": "https://outlook.live.com/mail/1/" },
           { "name": "Discord", "url": "https://discordapp.com/channels/@me" },
           { "name": "WhatsApp", "url": "https://web.whatsapp.com/" }
         ]
@@ -17,8 +16,7 @@
           { "name": "Twitter", "url": "https://twitter.com/home" },
           { "name": "Instagram", "url": "https://www.instagram.com/" },
           { "name": "TikTok", "url": "https://www.tiktok.com/" },
-          { "name": "Facebook", "url": "https://www.facebook.com/" },
-          { "name": "Photos", "url": "https://photos.google.com/" }
+          { "name": "Facebook", "url": "https://www.facebook.com/" }
         ]
       },
       {
@@ -26,13 +24,13 @@
         "bookmarks": [
           { "name": "Cafeyn", "url": "https://www.cafeyn.co/fr/newsstand" },
           { "name": "Libération", "url": "https://www.liberation.fr/" },
-          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
+          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr/" }
         ]
       },
       {
         "name": "Monies",
         "bookmarks": [
-          { "name": "Linxo'", "url": "https://linxo.com/" },
+          { "name": "Linxo", "url": "https://linxo.com/" },
           { "name": "Amazon", "url": "https://www.amazon.fr/" }
         ]
       }
@@ -44,8 +42,8 @@
         "name": "Organize",
         "bookmarks": [       
           { "name": "Calendar", "url": "https://calendar.notion.so/" },
-          { "name": "Pronote", "url": "https://0750711r.index-education.net/pronote/" },
-          { "name": "Health Mate", "url": "https://healthmate.withings.com/" }
+          { "name": "Lisa - Bergson)", "url": "https://0750711r.index-education.net/pronote/" },
+          { "name": "Max - Saint Georges", "url": "https://www.ecoledirecte.com/login" }
         ]
       },
       {
@@ -53,7 +51,8 @@
         "bookmarks": [
           { "name": "Notion", "url": "https://www.notion.so/" },
           { "name": "ChatGPT", "url": "https://chat.openai.com/chat" },
-          { "name": "Gemini", "url": "https://gemini.google.com/app" }, 
+          { "name": "Gemini", "url": "https://gemini.google.com/app" },
+          { "name": "Mistral", "url": "https://chat.mistral.ai/" },
           { "name": "Github", "url": "https://github.com/mogwaee" },
           { "name": "CodePen", "url": "https://codepen.io/" },
           { "name": "iCloud", "url": "https://beta.icloud.com" },

@@ -15,7 +15,7 @@ const loadBookmarks = () => {
     .catch((err) => console.error(err));
 };
 
-const createGroup = () => {};
+//const createGroup = () => {};
 
 const displayBookmarks = (bookmarks) => {
   let colCount = 0;

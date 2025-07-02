@@ -4,36 +4,35 @@
       {
         "name": "Contacts",
         "bookmarks": [
-          { "name": "Gmail", "url": "https://mail.google.com/" },
-          { "name": "Discord", "url": "https://discordapp.com/channels/@me" },
-          { "name": "WhatsApp", "url": "https://web.whatsapp.com/" }
+          { "name": "Gmail", "url": "https://mail.google.com" },
+          { "name": "WhatsApp", "url": "https://web.whatsapp.com" },
+          { "name": "Discord", "url": "https://discordapp.com/channels/@me" }
+          
         ]
       },
       {
         "name": "Social",
         "bookmarks": [
-          { "name": "reddit", "url": "https://www.reddit.com/" },
+          { "name": "reddit", "url": "https://www.reddit.com" },
           { "name": "Twitter", "url": "https://twitter.com/home" },
-          { "name": "Instagram", "url": "https://www.instagram.com/" },
-          { "name": "TikTok", "url": "https://www.tiktok.com/" },
-          { "name": "Facebook", "url": "https://www.facebook.com/" }
-          { "name": "Facebook", "url": "https://www.facebook.com/" }
+          { "name": "Instagram", "url": "https://www.instagram.com" },
+          { "name": "TikTok", "url": "https://www.tiktok.com" },
+          { "name": "Facebook", "url": "https://www.facebook.com" }
         ]
       },
       {
         "name": "Reading",
         "bookmarks": [
           { "name": "Cafeyn", "url": "https://www.cafeyn.co/fr/newsstand" },
-          { "name": "Libération", "url": "https://www.liberation.fr/" },
-          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr/" }
+          { "name": "Libération", "url": "https://www.liberation.fr" },
+          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
         ]
       },
       {
         "name": "Monies / Shopping",
         "bookmarks": [
-          { "name": "Linxo", "url": "https://linxo.com/" },
-          { "name": "Linxo", "url": "https://linxo.com/" },
-          { "name": "Amazon", "url": "https://www.amazon.fr/" }
+          { "name": "Linxo", "url": "https://linxo.com" },
+          { "name": "Amazon", "url": "https://www.amazon.fr" }
         ]
       }
     ]
@@ -43,8 +42,8 @@
       {
         "name": "Organize Life",
         "bookmarks": [       
-          { "name": "Calendar", "url": "https://calendar.google.com/" },
-          { "name": "Lisa-Bergson", "url": "https://0750711r.index-education.net/pronote/" },
+          { "name": "Calendar", "url": "https://calendar.google.com" },
+          { "name": "Lisa-Bergson", "url": "https://0750711r.index-education.net/pronote" },
           { "name": "Max-Saint Georges", "url": "https://www.ecoledirecte.com/login" }
         ]
       },
@@ -78,29 +77,29 @@
       {
         "name": "Media",
         "bookmarks": [
-          { "name": "YouTube", "url": "https://www.youtube.com/" },
+          { "name": "YouTube", "url": "https://www.youtube.com" },
           { "name": "Twitch", "url": "https://www.twitch.tv/directory" },
           { "name": "OQEE", "url": "https://oqee.tv/home" },
           { "name": "Plex", "url": "https://app.plex.tv/desktop" },
-          { "name": "myCANAL", "url": "https://www.canalplus.com/" },
-          { "name": "Netflix", "url": "https://www.netflix.com/fr-en/" },
+          { "name": "myCANAL", "url": "https://www.canalplus.com" },
+          { "name": "Netflix", "url": "https://www.netflix.com/fr-en" },
           { "name": "Disney+", "url": "https://www.disneyplus.com/home" },
-          { "name": "Prime Video", "url": "https://www.primevideo.com/" },
-          { "name": "Spotify", "url": "https://open.spotify.com/" },
-          { "name": "IMDb", "url": "https://www.imdb.com/" },
+          { "name": "Prime Video", "url": "https://www.primevideo.com" },
+          { "name": "Spotify", "url": "https://open.spotify.com" },
+          { "name": "IMDb", "url": "https://www.imdb.com" },
           { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }
         ]
       },
       {
         "name": "Gaming",
         "bookmarks": [
-          { "name": "OpenCritic", "url": "https://opencritic.com/" },
-          { "name": "HowLongToBeat", "url": "https://howlongtobeat.com/" },
-          { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/" },
-          { "name": "Steam", "url": "https://store.steampowered.com/" },
-          { "name": "Release calendar", "url": "https://steamdb.info/calendar/" },
+          { "name": "OpenCritic", "url": "https://opencritic.com" },
+          { "name": "HowLongToBeat", "url": "https://howlongtobeat.com" },
+          { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com" },
+          { "name": "Steam", "url": "https://store.steampowered.com" },
+          { "name": "Release calendar", "url": "https://steamdb.info/calendar" },
           { "name": "xCloud", "url": "https://www.xbox.com/en-US/play" },
-          { "name": "GeForce NOW", "url": "https://play.geforcenow.com/" },
+          { "name": "GeForce NOW", "url": "https://play.geforcenow.com" },
           { "name": "Chess.com", "url": "https://www.chess.com/home" }
         ]
       }

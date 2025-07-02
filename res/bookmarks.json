@@ -17,6 +17,7 @@
           { "name": "Instagram", "url": "https://www.instagram.com/" },
           { "name": "TikTok", "url": "https://www.tiktok.com/" },
           { "name": "Facebook", "url": "https://www.facebook.com/" }
+          { "name": "Facebook", "url": "https://www.facebook.com/" }
         ]
       },
       {
@@ -24,12 +25,13 @@
         "bookmarks": [
           { "name": "Cafeyn", "url": "https://www.cafeyn.co/fr/newsstand" },
           { "name": "Libération", "url": "https://www.liberation.fr/" },
-          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr" }
+          { "name": "Kindle Cloud", "url": "https://lire.amazon.fr/" }
         ]
       },
       {
         "name": "Monies / Shopping",
         "bookmarks": [
+          { "name": "Linxo", "url": "https://linxo.com/" },
           { "name": "Linxo", "url": "https://linxo.com/" },
           { "name": "Amazon", "url": "https://www.amazon.fr/" }
         ]
@@ -41,9 +43,9 @@
       {
         "name": "Organize Life",
         "bookmarks": [       
-          { "name": "Calendar", "url": "https://calendar.notion.so/" },
-          { "name": "Pronote", "url": "https://0750711r.index-education.net/pronote/" },
-          { "name": "Health Mate", "url": "https://healthmate.withings.com/" }
+          { "name": "Calendar", "url": "https://calendar.google.com/" },
+          { "name": "Lisa-Bergson", "url": "https://0750711r.index-education.net/pronote/" },
+          { "name": "Max-Saint Georges", "url": "https://www.ecoledirecte.com/login" }
         ]
       },
       {
@@ -96,6 +98,7 @@
           { "name": "HowLongToBeat", "url": "https://howlongtobeat.com/" },
           { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/" },
           { "name": "Steam", "url": "https://store.steampowered.com/" },
+          { "name": "Release calendar", "url": "https://steamdb.info/calendar/" },
           { "name": "xCloud", "url": "https://www.xbox.com/en-US/play" },
           { "name": "GeForce NOW", "url": "https://play.geforcenow.com/" },
           { "name": "Chess.com", "url": "https://www.chess.com/home" }

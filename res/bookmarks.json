@@ -86,6 +86,7 @@
           { "name": "Disney+", "url": "https://www.disneyplus.com/home" },
           { "name": "Prime Video", "url": "https://www.primevideo.com" },
           { "name": "Spotify", "url": "https://open.spotify.com" },
+          { "name": "Sonos", "url": "https://play.sonos.com/en-us/web-app" },
           { "name": "IMDb", "url": "https://www.imdb.com" },
           { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }
         ]

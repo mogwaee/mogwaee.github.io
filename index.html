@@ -11,8 +11,17 @@
   </head>
   <body>
     <header>
-      <img src="img/logo.jpg" alt="Ahead Start" />
-      <h1>Ahead Start</h1>
+      <div class="brand">
+        <img src="img/logo.jpg" alt="Ahead Start" />
+        <h1>Ahead Start</h1>
+      </div>
+      <label class="theme-picker" for="theme-select">
+        <span>Theme</span>
+        <select id="theme-select" aria-label="Choose theme">
+          <option value="dracula">Dracula</option>
+          <option value="catppuccin">Catppuccin</option>
+        </select>
+      </label>
     </header>
     <form class="search-box" method="get" action="https://www.google.com/search">
       <input type="search" name="q" placeholder="Search..." autofocus>

@@ -1,8 +1,44 @@
 'use strict';
 
+const THEME_STORAGE_KEY = 'ahead-start-theme';
+const THEMES = ['dracula', 'catppuccin'];
+
 const init = () => {
   //console.log("init");
+  initThemePicker();
   loadBookmarks();
+};
+
+const initThemePicker = () => {
+  const themeSelect = document.getElementById('theme-select');
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+  const initialTheme = THEMES.includes(savedTheme) ? savedTheme : 'dracula';
+
+  setTheme(initialTheme);
+
+  if (!themeSelect) {
+    return;
+  }
+
+  themeSelect.value = initialTheme;
+  themeSelect.addEventListener('change', () => {
+    setTheme(themeSelect.value);
+    localStorage.setItem(THEME_STORAGE_KEY, themeSelect.value);
+  });
+};
+
+const setTheme = (theme) => {
+  const selectedTheme = THEMES.includes(theme) ? theme : 'dracula';
+  document.documentElement.dataset.theme = selectedTheme;
+
+  const themeColor = getComputedStyle(document.documentElement)
+    .getPropertyValue('--theme-color')
+    .trim();
+  const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+  if (themeColor && themeColorMeta) {
+    themeColorMeta.setAttribute('content', themeColor);
+  }
 };
 
 const loadBookmarks = () => {

@@ -24,7 +24,7 @@
   --theme-color: #bd93f9;
 }
 
-[data-theme='catppuccin'] {
+[data-theme='catppuccin-mocha'] {
   --background: #1e1e2e;
   --foreground: #cdd6f4;
   --heading: #a6e3a1;
@@ -34,6 +34,30 @@
   --control-background: #181825;
   --muted: #585b70;
   --theme-color: #cba6f7;
+}
+
+[data-theme='synthwave'] {
+  --background: #262335;
+  --foreground: #fdf9f3;
+  --heading: #f92aad;
+  --accent: #fede5d;
+  --hover-background: #463465;
+  --hover-foreground: #36f9f6;
+  --control-background: #241b2f;
+  --muted: #848bbd;
+  --theme-color: #f92aad;
+}
+
+[data-theme='paper'] {
+  --background: #f7f3e8;
+  --foreground: #2f2a24;
+  --heading: #2f6f4e;
+  --accent: #8a5a2b;
+  --hover-background: #e5dcc8;
+  --hover-foreground: #8f2d56;
+  --control-background: #fffaf0;
+  --muted: #b8aa92;
+  --theme-color: #f7f3e8;
 }
 
 body {

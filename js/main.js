@@ -1,7 +1,12 @@
 'use strict';
 
 const THEME_STORAGE_KEY = 'ahead-start-theme';
-const THEMES = ['dracula', 'catppuccin'];
+const THEMES = [
+  'dracula',
+  'catppuccin-mocha',
+  'synthwave',
+  'paper',
+];
 
 const init = () => {
   //console.log("init");
@@ -12,7 +17,7 @@ const init = () => {
 const initThemePicker = () => {
   const themeSelect = document.getElementById('theme-select');
   const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-  const initialTheme = THEMES.includes(savedTheme) ? savedTheme : 'dracula';
+  const initialTheme = normalizeTheme(savedTheme);
 
   setTheme(initialTheme);
 
@@ -28,7 +33,7 @@ const initThemePicker = () => {
 };
 
 const setTheme = (theme) => {
-  const selectedTheme = THEMES.includes(theme) ? theme : 'dracula';
+  const selectedTheme = normalizeTheme(theme);
   document.documentElement.dataset.theme = selectedTheme;
 
   const themeColor = getComputedStyle(document.documentElement)
@@ -39,6 +44,10 @@ const setTheme = (theme) => {
   if (themeColor && themeColorMeta) {
     themeColorMeta.setAttribute('content', themeColor);
   }
+};
+
+const normalizeTheme = (theme) => {
+  return THEMES.includes(theme) ? theme : 'dracula';
 };
 
 const loadBookmarks = () => {

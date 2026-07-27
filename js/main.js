@@ -4,6 +4,7 @@ const THEME_STORAGE_KEY = 'ahead-start-theme';
 const THEMES = [
   'dracula',
   'catppuccin-mocha',
+  'catppuccin-latte',
   'synthwave',
   'paper',
 ];

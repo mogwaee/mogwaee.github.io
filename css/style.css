@@ -14,10 +14,10 @@
 :root,
 [data-theme='dracula'] {
   --background: #282a36;
-  --foreground: #bfc7d5;
+  --foreground: #f8f8f2;
   --heading: #50fa7b;
   --accent: #bd93f9;
-  --hover-background: #6272a4;
+  --hover-background: #44475a;
   --hover-foreground: #ff79c6;
   --control-background: #282a36;
   --muted: #6272a4;
@@ -36,16 +36,28 @@
   --theme-color: #cba6f7;
 }
 
+[data-theme='catppuccin-latte'] {
+  --background: #eff1f5;
+  --foreground: #4c4f69;
+  --heading: #40a02b;
+  --accent: #8839ef;
+  --hover-background: #ccd0da;
+  --hover-foreground: #ea76cb;
+  --control-background: #e6e9ef;
+  --muted: #9ca0b0;
+  --theme-color: #8839ef;
+}
+
 [data-theme='synthwave'] {
   --background: #262335;
-  --foreground: #fdf9f3;
-  --heading: #f92aad;
+  --foreground: #ffffff;
+  --heading: #ff7edb;
   --accent: #fede5d;
-  --hover-background: #463465;
-  --hover-foreground: #36f9f6;
-  --control-background: #241b2f;
+  --hover-background: #463564;
+  --hover-foreground: #03edf9;
+  --control-background: #2a2139;
   --muted: #848bbd;
-  --theme-color: #f92aad;
+  --theme-color: #ff7edb;
 }
 
 [data-theme='paper'] {

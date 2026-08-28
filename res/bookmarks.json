@@ -64,6 +64,7 @@
       {
         "name": "Home",
         "bookmarks": [
+          { "name": "Google Home", "url": "https://home.google.com/" },
           { "name": "Freebox OS", "url": "https://mogwaee.freeboxos.fr:12631/" },
           { "name": "Cockpit", "url": "https://mogwaee.freeboxos.fr:9590/" },
           { "name": "Grafana", "url": "http://mogwaee.freeboxos.fr:3500/" },
@@ -87,8 +88,8 @@
           { "name": "Netflix", "url": "https://www.netflix.com/fr-en" },
           { "name": "Disney+", "url": "https://www.disneyplus.com/home" },
           { "name": "Prime Video", "url": "https://www.primevideo.com" },
+          { "name": "Sonos Controller", "url": "https://play.sonos.com/en-us/web-app" },
           { "name": "Spotify", "url": "https://open.spotify.com" },
-          { "name": "Sonos", "url": "https://play.sonos.com/en-us/web-app" },
           { "name": "IMDb", "url": "https://www.imdb.com" },
           { "name": "JustWatch", "url": "https://www.justwatch.com/fr" }
         ]

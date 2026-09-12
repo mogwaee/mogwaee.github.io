@@ -72,6 +72,8 @@ const initThemePicker = () => {
 
 const setTheme = (theme) => {
   const selectedTheme = normalizeTheme(theme);
+  const themeName = document.querySelector(`#theme-select option[value="${selectedTheme}"]`).textContent;
+  document.getElementById('current-theme-name').textContent = themeName;
   document.documentElement.dataset.theme = selectedTheme;
   document.documentElement.style.colorScheme =
     ['catppuccin-latte', 'paper'].includes(selectedTheme) ? 'light' : 'dark';

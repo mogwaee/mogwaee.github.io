@@ -15,16 +15,39 @@
         <img src="img/logo.jpg" alt="Ahead Start" />
         <h1>Ahead Start</h1>
       </div>
-      <label class="theme-picker" for="theme-select">
-        <span>Theme</span>
-        <select id="theme-select" aria-label="Choose theme">
-          <option value="dracula">Dracula</option>
-          <option value="catppuccin-mocha">Catppuccin Mocha</option>
-          <option value="catppuccin-latte">Catppuccin Latte</option>
-          <option value="synthwave">SynthWave '84</option>
-          <option value="paper">Paper</option>
-        </select>
-      </label>
+      <details class="theme-menu">
+        <summary aria-label="Theme settings">Theme <span aria-hidden="true">▾</span></summary>
+        <div class="theme-settings">
+        <label class="theme-picker" for="theme-select">
+          <span>Theme</span>
+          <select id="theme-select" aria-label="Choose theme">
+            <option value="system">Follow OS</option>
+            <option value="dracula">Dracula</option>
+            <option value="catppuccin-mocha">Catppuccin Mocha</option>
+            <option value="catppuccin-latte">Catppuccin Latte</option>
+            <option value="synthwave">SynthWave '84</option>
+            <option value="paper">Paper</option>
+          </select>
+        </label>
+        <div id="system-themes" class="system-themes" hidden>
+          <label class="theme-picker" for="dark-theme-select">
+            <span>Dark</span>
+            <select id="dark-theme-select">
+              <option value="dracula">Dracula</option>
+              <option value="catppuccin-mocha">Catppuccin Mocha</option>
+              <option value="synthwave">SynthWave '84</option>
+            </select>
+          </label>
+          <label class="theme-picker" for="light-theme-select">
+            <span>Light</span>
+            <select id="light-theme-select">
+              <option value="catppuccin-latte">Catppuccin Latte</option>
+              <option value="paper">Paper</option>
+            </select>
+          </label>
+        </div>
+        </div>
+      </details>
     </header>
     <form class="search-box" method="get" action="https://www.google.com/search">
       <input type="search" name="q" placeholder="Search..." autofocus>

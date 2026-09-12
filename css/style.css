@@ -101,6 +101,74 @@ header {
   margin-right: 10px;
 }
 
+.theme-menu {
+  position: relative;
+  color: var(--foreground);
+  font-family: 'OperatorMono-Light';
+  font-size: 12px;
+}
+
+.theme-menu > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--muted);
+  border-radius: 5px;
+  background: var(--control-background);
+}
+
+.theme-menu > summary::-webkit-details-marker {
+  display: none;
+}
+
+.theme-menu > summary:hover {
+  background: var(--hover-background);
+}
+
+.theme-menu > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.theme-settings {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  z-index: 10;
+  width: 260px;
+  max-width: calc(100vw - 3rem);
+  box-sizing: border-box;
+  padding: 0.8rem;
+  border: 1px solid var(--muted);
+  border-radius: 7px;
+  background: var(--control-background);
+  box-shadow: 0 6px 20px #0003;
+}
+
+.theme-settings,
+.system-themes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.theme-settings .theme-picker {
+  justify-content: space-between;
+}
+
+.theme-settings select {
+  min-width: 0;
+  max-width: 180px;
+}
+
+.system-themes[hidden] {
+  display: none;
+}
+
+header {
+  flex-wrap: wrap;
+}
+
 .theme-picker {
   display: flex;
   align-items: center;

@@ -12,30 +12,69 @@ const THEMES = [
 const init = () => {
   //console.log("init");
   initThemePicker();
+  const themeMenu = document.querySelector('.theme-menu');
+  document.addEventListener('click', (event) => {
+    if (!themeMenu.contains(event.target)) themeMenu.open = false;
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && themeMenu.open) {
+      themeMenu.open = false;
+      themeMenu.querySelector('summary').focus();
+    }
+  });
   loadBookmarks();
 };
 
 const initThemePicker = () => {
   const themeSelect = document.getElementById('theme-select');
+  const systemThemes = document.getElementById('system-themes');
+  const darkSelect = document.getElementById('dark-theme-select');
+  const lightSelect = document.getElementById('light-theme-select');
+  const osAppearance = window.matchMedia('(prefers-color-scheme: dark)');
   const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-  const initialTheme = normalizeTheme(savedTheme);
 
-  setTheme(initialTheme);
+  themeSelect.value = savedTheme === 'system' || !savedTheme
+    ? 'system'
+    : normalizeTheme(savedTheme);
 
-  if (!themeSelect) {
-    return;
-  }
+  const restoreChoice = (select, key, fallback) => {
+    const saved = localStorage.getItem(key);
+    select.value = Array.from(select.options).some((option) => option.value === saved)
+      ? saved : fallback;
+  };
+  restoreChoice(darkSelect, 'ahead-start-dark-theme', 'catppuccin-mocha');
+  restoreChoice(lightSelect, 'ahead-start-light-theme', 'catppuccin-latte');
 
-  themeSelect.value = initialTheme;
+  const applySelection = () => {
+    const followOS = themeSelect.value === 'system';
+    systemThemes.hidden = !followOS;
+    setTheme(followOS
+      ? (osAppearance.matches ? darkSelect.value : lightSelect.value)
+      : themeSelect.value);
+  };
+
   themeSelect.addEventListener('change', () => {
-    setTheme(themeSelect.value);
     localStorage.setItem(THEME_STORAGE_KEY, themeSelect.value);
+    applySelection();
   });
+  for (const [select, key] of [
+    [darkSelect, 'ahead-start-dark-theme'],
+    [lightSelect, 'ahead-start-light-theme'],
+  ]) {
+    select.addEventListener('change', () => {
+      localStorage.setItem(key, select.value);
+      applySelection();
+    });
+  }
+  osAppearance.addEventListener('change', applySelection);
+  applySelection();
 };
 
 const setTheme = (theme) => {
   const selectedTheme = normalizeTheme(theme);
   document.documentElement.dataset.theme = selectedTheme;
+  document.documentElement.style.colorScheme =
+    ['catppuccin-latte', 'paper'].includes(selectedTheme) ? 'light' : 'dark';
 
   const themeColor = getComputedStyle(document.documentElement)
     .getPropertyValue('--theme-color')

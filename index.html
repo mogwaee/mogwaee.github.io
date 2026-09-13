@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahead Start</title>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <!-- <meta name="theme-color" content="#383A57" /> -->
-    <meta name="theme-color" content="#B796F5" />
+    <meta name="theme-color" content="#bd93f9" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -18,63 +17,33 @@
       <details class="theme-menu">
         <summary><span id="current-theme-name">Theme</span> <span aria-hidden="true">▾</span></summary>
         <div class="theme-settings">
-        <label class="theme-picker" for="theme-select">
-          <span>Theme</span>
-          <select id="theme-select" aria-label="Choose theme">
-            <option value="system">Follow OS</option>
-            <option value="dracula">Dracula</option>
-            <option value="catppuccin-mocha">Catppuccin Mocha</option>
-            <option value="catppuccin-latte">Catppuccin Latte</option>
-            <option value="synthwave">SynthWave '84</option>
-            <option value="paper">Paper</option>
-          </select>
-        </label>
-        <div id="system-themes" class="system-themes" hidden>
-          <label class="theme-picker" for="dark-theme-select">
-            <span>Dark</span>
-            <select id="dark-theme-select">
-              <option value="dracula">Dracula</option>
-              <option value="catppuccin-mocha">Catppuccin Mocha</option>
-              <option value="synthwave">SynthWave '84</option>
-            </select>
+          <label class="theme-picker" for="theme-select">
+            <span>Theme</span>
+            <select id="theme-select" aria-label="Choose theme"></select>
           </label>
-          <label class="theme-picker" for="light-theme-select">
-            <span>Light</span>
-            <select id="light-theme-select">
-              <option value="catppuccin-latte">Catppuccin Latte</option>
-              <option value="paper">Paper</option>
-            </select>
-          </label>
-        </div>
+          <div id="system-themes" class="system-themes" hidden>
+            <label class="theme-picker" for="dark-theme-select">
+              <span>Dark</span>
+              <select id="dark-theme-select"></select>
+            </label>
+            <label class="theme-picker" for="light-theme-select">
+              <span>Light</span>
+              <select id="light-theme-select"></select>
+            </label>
+          </div>
         </div>
       </details>
     </header>
     <form class="search-box" method="get" action="https://www.google.com/search">
-      <input type="search" name="q" placeholder="Search..." autofocus>
+      <input type="search" name="q" placeholder="Search..." aria-label="Search Google" autofocus>
     </form>
-    <!--<form class="search-box" method="get" action="https://www.ecosia.org/search">
-      <input type="search" name="q" placeholder="Search..." autofocus>
-    </form>-->
-    <div class="main">
+    <main>
       <div class="bookmarks-container">
-        <div class="row">
-          <div class="cols" id="col1"></div>
-
-          <div class="cols" id="col2"></div>
-
-          <div class="cols" id="col3"></div>
-        </div>
+        <p id="bookmark-status" role="status" hidden></p>
+        <div class="row" id="bookmark-columns"></div>
       </div>
-<!--
-      <div class="wave-container">
-        <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
-        <div class="wave wave3"></div>
-        <div class="wave wave4"></div>
-      </div>
--->    
-    </div>
+    </main>
 
-    <script src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
